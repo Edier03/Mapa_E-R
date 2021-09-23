@@ -1,0 +1,59 @@
+.p{
+    text-align: center;
+}
+.letras{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: solid red;
+}
+.mxgraph{
+    border-radius: 10px;
+}
+img{
+    width: 150px;
+    height: 300px;
+    text-align: center;
+}
+.pie{
+    background: black;
+    color: wheat;
+    border: 10px;
+    width: 70%;
+    border: solid cyan;
+}
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+  .facebook {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:110px;
+    right:40px;
+    background-color:#3b5998;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .facebook-icon {
+    margin-top:13px;
+  }

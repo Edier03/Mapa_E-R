@@ -1,0 +1,53 @@
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapas E-R</title>
+</head>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,32L96,288L192,256L288,288L384,64L480,288L576,160L672,128L768,192L864,288L960,224L1056,224L1152,160L1248,320L1344,224L1440,64L1440,0L1344,0L1248,0L1152,0L1056,0L960,0L864,0L768,0L672,0L576,0L480,0L384,0L288,0L192,0L96,0L0,0Z"></path></svg>
+<body>
+    <a href="https://wa.me/529941132250?text=Hola%20Edier" class="whatsapp" target="_blank" title="Contacco con Whatsapp"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://www.facebook.com/medina.7796.345" class="facebook" target="_blank" title="Sigueme en Facebook"> <i class="fa fa-facebook facebook-icon"></i></a>
+    <center>
+       <div class="letras">
+        <h1>EJERCICIO 1</h1>
+        <h3>A partir del siguiente enunciado se desea realiza el modelo entidad-relación.</h3>
+        <p>“Una empresa vende productos a varios clientes. Se necesita conocer los datos personales de los clientes (nombre, apellidos, dni, dirección y fecha de nacimiento). Cada producto tiene un nombre y un código, así como un precio unitario. Un cliente puede comprar varios productos a la empresa, y un mismo producto puede ser comprado por varios clientes.
+            Los productos son suministrados por diferentes proveedores. Se debe tener en cuenta que un producto sólo puede ser suministrado por un proveedor, y que un proveedor puede suministrar diferentes productos. De cada proveedor se desea conocer el NIF, nombre y dirección”.
+            </p>
+       </div>
+            <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers tags lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;Electron\&quot; modified=\&quot;2021-09-23T20:20:42.635Z\&quot; agent=\&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.2.7 Chrome/93.0.4577.63 Electron/14.0.1 Safari/537.36\&quot; etag=\&quot;Hs4mjGvVtwHFADL_GWDV\&quot; version=\&quot;15.2.7\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;oPoxRmWlwUR26fHilzni\&quot; name=\&quot;Página-1\&quot;&gt;5VvbcqIwGH4aL90xRFAvV2333O2Ms4deppCV7ABhQqjap98gQQ6hynatCdsrk58cyPefviQ4gItw+46h2P9CPRwMrJG3HcDlwLLADMzETybZSYnjwFyyZsSTslKwIo9YCkdSmhIPJ7WGnNKAk7gudGkUYZfXZIgxuqk3+0WD+qwxWmNFsHJRoEp/EI/7uXRqTUr5e0zWfjEzcOSKQ1Q0litJfOTRTUUErwZwwSjleSncLnCQoVfgkve7fuLp4cUYjniXDkPgPQb00/1uYyWrebD9iMHXoSPfje+KBWNPrF9WKeM+XdMIBVeldM5oGnk4G3UkamWbz5TGQgiE8DfmfCeViVJOhcjnYSCf4i3hP7Pub2xZu6s8WW7lyPvKrqhEnO0qnbLqXfVZ2W1fK/qpKEngEpoyFx+BprA2xNaYH2ln5+0y3CoTSB28wzTE4n1EA4YDxMlD3a6QNM/1oV2pQVGQSvwLhcpxH1CQypmuwpjhBA0sB4VCP/PoPokPwFQUX1frxiccr2K0h2gjnLuuwidhfcCM4+1RIIqnY+kYMjQM4VQKNqWjgcJ7/IqTOaMXAm+i1RsqvlB6xglvADVfKF3jCW9IhDXzt1lYFIKIRvjfPGTUTxeZKT6iQ+/Px93qCDuYGoW7pcam/xP3ImaZgvv4teAOzcLdeS24nz2+77uKPIV2lQYxJRFPKiPfZoKSUDh2nVCAJiFutodH24tC/galBRyW8g9GMX0tRjExwijsWV3J40voWFHxIiACaLGPNY2EO+NWePRR8LEOb3gOBX++B8Gu9M2obAZUq+5X4OoMu2G49529dcbdLPYG+s7eOuNu1u4cKrDfMvqAsUdZD/KnAYdYBavtreHaHQ3XmplluH1PkF1xh2YlSNj3BNkZ97MnyGftqDRsqOy2nOClrtCBaQmheauhfUOlnjes0pBEJOEMRafh82l4nyYXgW4M4Bu7kU1nKnzTFvSmL4WeelXwHQt70ooTcBqcA7RwjouiVGyZaiHYCcS081QU1lnh5sN1IRNzHMRqqA4CEif4NJJ1zz4DrgqXsy3dzgtUNnwjDI2pBqgPtql5FBioCWNJGHZdMljAwRyejnsGWaH+FALUHcWChvE+fxiVL6DuODhpiYOXp6KX/KJAZMOzfU8gwTp9YnH2+9UnLogarjhp2E2+INmpNB1lHMs5Pk6+YGWcc7FnoFJA45KIEvXASHfUs9So9zbOEPLo6XMofUhOpg0kHe1AqiRGYYfLmw+Gs8NJw4lBS7K5MK49Zjn2pIGmfitVc/c1dn0kRNl+bxQhl4TZLe7pMweNsDY+aRhq546WuoM2Lvk0z2za9tMXPsPvsKFe5F7ukXWLRRodSoeNUKrdSGHbpRN2iQB29C0igp9lRWPwazr5C8ZOUS3/oZAT0vKPHvDqDw==&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+    <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script><br><br>
+
+<div class="letras">
+    <h1>EJERCICIO 2</h1>
+    <h3>Se desea informatizar la gestión de una tienda informática. La tienda dispone de una serie de productos que se pueden vender a los clientes.</h3>
+    <p>“De cada producto informático se desea guardar el código, descripción, precio y número de existencias. De cada cliente se desea guardar el código, nombre, apellidos, dirección y número de teléfono.
+        Un cliente puede comprar varios productos en la tienda y un mismo producto puede ser comprado por varios clientes. Cada vez que se compre un artículo quedará registrada la compra en la base de datos junto con la fecha en la que se ha comprado el artículo.
+        La tienda tiene contactos con varios proveedores que son los que suministran los productos. Un mismo producto puede ser suministrado por varios proveedores. De cada proveedor se desea guardar el código, nombre, apellidos, dirección, provincia y número de teléfono”.
+        </p>
+</div>
+        <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers tags lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;Electron\&quot; modified=\&quot;2021-09-23T20:31:08.566Z\&quot; agent=\&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.2.7 Chrome/93.0.4577.63 Electron/14.0.1 Safari/537.36\&quot; etag=\&quot;XKTNMyUx5nSLCMwzTtm8\&quot; version=\&quot;15.2.7\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;oPoxRmWlwUR26fHilzni\&quot; name=\&quot;Página-1\&quot;&gt;3Ztbc6M2FIB/jR/dMWBuj44d76bTuJnNzrR56mhBa7QDiBHCl/76iiBhQDRmNw6S/QQ6CAGfjqRzERNrmRw+EZBFjziE8cSchYeJtZqYpuEbPjuUkiOXOI5VSbYEhVx2EjyjfyEXzri0QCHMWxUpxjFFWVsY4DSFAW3JACF43672Hcftp2ZgCyXBcwBiWfoXCmlUST3TPck/Q7SNxJMNh39xAkRl/iV5BEK8b4is+4m1JBjT6iw5LGFc0hNcqvvW/3O1fjECUzrkhqPzO7XW62S/T/4xpwfv0Tvup7ZXNbMDccG/mL8tPQoEMGREeDHFKTvcEVykISwbnrESJjTCW5yC+A+MMyY0mPAHpPTI+xMUFDNRRJOYX5Vfnn9PjgsSwLfe2OZaAMgW0rcq8i4qX7/xCA7nE8QJpOTIKhAYA4p27Q4HXG+2db0TWnbC6f4MaVsi/fXhfrNaMNnDZv3nl8fF14flQqLfRr2PEIXPGXhFtGdjbiDWHSQUHt7EwK/Ofa6vYsRavLw/qb8hdDpqqL4z+yByouEr0lF3qI76WumoY94sacfQi/T8dklbepF2bpe0rRVpzx0FLDwg+nd5+2+uzYsvvLXyfHVoFo6ikLIvrO6aG64QvIgmy8LpxtdS684nSBCDBAkXjtC53sU79/XWBSHg2KiQYZTSvNHyUyk4mQOG3TEHjFlHUaoWT2pTv9o7bCVXGrNPBIdFwHTBdEBSWj3ptzyre6KhcmcspLb6XcJe0s1cEjZFa8JzYvbYu4KdbMuTJQ7RFgsxe0x9RR7Cccx8LXje9rw42akxa7M1Z6rZCiuiwXYF84CgLECTpTW5s9KzCqoSqNFRVlM5UKtnpMMAnR/nCjE6bYpz5RBl13Lzqo2LBBJcRl9guZAcUE5hGiCgMdvObDo1lLPtm021Nh+dweajd2kL412kXXluvRXS7kwv0vKkezOkTb1IyzPzzZCe60VadhluhrSjF2l/FLC1m/8rPr79Mx7+CF2oWS7CkQfLMkbs86HUtWOnH8yOcW25yi1AOUW2wck3IrNSZzZ3qdnK7WZXTtosKw+ZRx509UBqhRPenaccpSmhXGQloFBnjvNO4HCuPNbg9uVcOoGxTdF0mSmMS51d+N9x2sNa6+hZl79lK+cvZ2JWiMDgGkJnxly7WUFellYoz0rrS1rDI7ZeFfk467fXBtUXYvR6OHkfxcnrWYhwkhGgFFNXn/qCiONimsuj7UOTd83cnbhyxq6vDfmX5pWLW/We2Gd2ZVa9d3WZ7sGkL58MfR9pOVR5B3IozIYQUJzL04tiT6pOWyhbsjw57vgFblFOFU/GZifP2JPCHXculqOGaxhEQOgXqaDpbP3XafA6kaPcI/VGjlv9ygrXiVx94BrnDV3j9Jp5fdkX1n2NG0ra12uHon91OxSHk9Zrh6J/fXbbYNKazR5X97fDcNJ6+SL11q1bRK3Xpn1PVuongncQhpjA/KyNqPr/kqmh3C/xZV19LhKUvnomqUxsRNfE7uzYm6qOE/my66tdNkxSMUv5xlFfdn1FDuf8EFVH0jH1Iyk7x1eTRXC6imn2RMdHxtm71X6HNN8nanWDWxooprxTtJtNTCHRmelsRO1kxdOvz9V/I6c/yK37/wA=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+    </center>
+
+    <!--EdierMedina-->
+    <center>
+        <div class="pie">
+            <br><br>
+            <img src="POST.jpg" alt="">
+        <h2>Edier Medina Ramos, estudiante del Colegio de Estudios Cinetificos y Tecnologicos del Estado de Oaxaca, en la especialidad de PROGRAMACION
+            perteneciente al grupo: 502.
+        </h2>
+    
+    </div>
+    </center>
+</body>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,256L75.8,64L151.6,64L227.4,160L303.2,288L378.9,64L454.7,32L530.5,224L606.3,224L682.1,256L757.9,32L833.7,192L909.5,0L985.3,96L1061.1,128L1136.8,288L1212.6,64L1288.4,64L1364.2,288L1440,32L1440,320L1364.2,320L1288.4,320L1212.6,320L1136.8,320L1061.1,320L985.3,320L909.5,320L833.7,320L757.9,320L682.1,320L606.3,320L530.5,320L454.7,320L378.9,320L303.2,320L227.4,320L151.6,320L75.8,320L0,320Z"></path></svg>
+</html>
